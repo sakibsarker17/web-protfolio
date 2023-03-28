@@ -7,6 +7,10 @@ h1{
     font-size: 50px;
 }
 
+p {
+    color:red;
+}
+
 
 .name-haigilight{
     color: orange;
@@ -22,17 +26,15 @@ h1{
     width: 100%;
 }
 
-.styleshow:hover{
-    color: darkviolet;
-    
-}
+
 .top-banner{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
     
 }
-.top-banner{
+section{
     height: 500px;
+    padding-bottom: 150px;
 }
 
 .button{
@@ -40,7 +42,29 @@ h1{
     color: white ;
     background-color: rgb(218, 65, 39);
     border-radius: 5px;
-    padding: 10px 20px; 
+    padding: 5px 10px; 
     font-weight: 700;
     background-image: linear-gradient(45deg, red, tomato);
 }
+
+
+
+.top_banner_secend{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+ 
+   
+}
+
+.button_two {
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+    padding: 5px 10px;
+    font-weight: 700;
+    border-radius: 5px;
+    background-image: linear-gradient(48deg, red, orange);
+}
+
+
