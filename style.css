@@ -5,6 +5,8 @@ body{
 }
 h1{
     font-size: 50px;
+    font-weight: bold;
+    
 }
 
 p {
@@ -82,4 +84,10 @@ section{
 
 footer p {
     text-align:  center;
+}
+
+#experienceces{
+    border-left: 8px solid ;
+    border-image: linear-gradient(240deg, orange, tomato);
+    border-image-slice: 1;
 }
