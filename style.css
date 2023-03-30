@@ -91,3 +91,7 @@ footer p {
     border-image: linear-gradient(240deg, orange, tomato);
     border-image-slice: 1;
 }
+
+#experiences-two{
+    border-left: 8px solid rgb(31, 115, 148);
+}
