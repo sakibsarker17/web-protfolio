@@ -1,93 +1,90 @@
 body{
-    font-family: 'Poppins', sans-serif;
     margin: 0;
-   
 }
-h1{
+h1 {
     font-size: 50px;
-    font-weight: bold;
+}
+.text-orange{
+    color: orange;
+}
+
+.first-family{
+    width: 39%;
+    float: left;
+    margin: 4%;
+    padding: 1%;
+    
+    
     
 }
 
-p {
-    color:rgb(0, 0, 0);
-}
-
-
-.name-haigilight{
-    color: orange;
-}
-.width_half{
-    width: 40%;
-    float: left ;
-    margin-left: 5%;
-    padding: 2%;
-}
-
-.width_half img{
+.first-family img {
     width: 100%;
 }
 
-
-.top-banner{
-    background-image: url("images/top-banner.png");
+.top-bnners{
+    background-image: url("image/top-banner.png");
     background-repeat: no-repeat;
-    
 }
+
 section{
     height: 500px;
     padding-bottom: 150px;
 }
 
+
+
+
 .button{
     text-decoration: none;
-    color: white ;
-    background-color: rgb(218, 65, 39);
+    background-color: brown;
+    padding: 5px 10px;
+    color: white;
     border-radius: 5px;
-    padding: 5px 10px; 
     font-weight: 700;
-    background-image: linear-gradient(45deg, red, tomato);
+    background-image: linear-gradient(48deg, orange, tomato);
+}
+.banner-family-tree{
+    background-image: url("image/dream-bg.png");
+   background-repeat: no-repeat;
+   background-position: right;
 }
 
-
-
-.top_banner_secend{
-    background-image: url("images/dream-bg.png");
-    background-repeat: no-repeat;
-    background-position: right;
- 
-   
-}
-
-.button_two {
+.button-two{
     text-decoration: none;
-    background-color: orange;
+    background-color: brown;
     color: white;
     padding: 5px 10px;
-    font-weight: 700;
     border-radius: 5px;
-    background-image: linear-gradient(48deg, red, orange);
+    font-weight: 700;
+    background-image: linear-gradient(45deg, rgb(11, 163, 209), orange);
 }
 
+.single-part{
+    box-shadow: 10px 10px 40px rgb(124, 134, 134);
+    border-radius: 10px;
+    background-color: white;
+    height: 250px;
 
-.single-experince {
-    box-shadow: 10px 10px 40px rgb(87, 87, 87);
-    border-radius: 10px; 
-    height: 60%; 
-    background-color: white;    
 }
-.ls-bag{
-    background-image: url("images/exp-bg.png");
+
+.background-ph{
+    background-image: url("image/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
 }
 
-footer p {
-    text-align:  center;
+#background-line{
+    
+    border-left: 8px solid orange;
+    
 }
 
-#experienceces{
-    border-left: 8px solid ;
-    border-image: linear-gradient(240deg, orange, tomato);
-    border-image-slice: 1;
+#background-line-two{
+    border-left: 8px solid rgb(27, 146, 194);
+
+}
+
+footer p {
+   text-align: center;
 }
